@@ -1,0 +1,36 @@
+<ion-view view-title="Version Plugin">
+  <ion-content>
+      <div class="list card">
+          <div class="item item-divider">App Versioning</div>
+          <div class="item item-body">
+              <div>
+                    I like to add these version and build numbers to my
+                    app so I know what version I built and what the customer
+                    has installed.
+              </div>
+          </div>
+      </div>
+      <div class="list card">
+          <div class="item item-divider">App Version</div>
+          <div class="item item-body">
+              <div>
+                  <div>Displayed in Apple/Google Store</div>
+                  <br>
+                  <div>Version:&nbsp;&nbsp;{{appVersion}}</div>
+              </div>
+
+          </div>
+      </div>
+      <div class="list card">
+          <div class="item item-divider">App Build Number</div>
+          <div class="item item-body">
+              <div>
+                  <div>This is the iOS Bundle Identifier/Android Version Code</div>
+                  <br>
+                  <div>Code:&nbsp;&nbsp;{{appCode}}</div>
+              </div>
+
+          </div>
+      </div>
+  </ion-content>
+</ion-view>
